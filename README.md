@@ -9,7 +9,7 @@ This repo is the current state of a project I'd like to more fully persue at RC.
 The code works with subsets of finite vector spaces over integers mod a prime, tracking **direction** and **incidence** information. It’s still experimental.
 
 - **`subset.py`**: Slower and heavier, but tracks more detailed information in particular, which pairs determine which directions. I imagine it will be good for visualzations and pulling the terse word representations from the scoring file back to a format that can be more easlity interpreted. In my application, this is my first answer to code you have written from scratch.
-- **`lightweight_score.py`**: The core of the project. It’s optimized and faster. If you’re interested in the scoring logic or direction handling, this is where it’s at.
+- **`lightweight_score.py`**: The core of the project. It’s optimized and faster. If you’re interested in how the scoring logic works, its here.
 
 ### Key Notes:
 - **Normalized Run**: In the normalized run, positive integers are supposed to indicate equidistribution. I expected values to peak around 10–20, but sometimes they break 100. Wether these represent acutal, novel, hard to find examples or simply a coding error is TBD.
@@ -36,3 +36,4 @@ Install dependencies with:
 ```zsh
 pip install -r requirements.txt
 ```
+After cloining this repo, this works on my local. But from my last job, I know this is not enough to guarantee working everywhere. One small thing I'd like to learn at RC is a fullproof method for avoiding sentences like this in READMEs.
