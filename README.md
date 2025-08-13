@@ -36,4 +36,4 @@ Install dependencies with:
 ```zsh
 pip install -r requirements.txt
 ```
-After cloining this repo, this works on my local. But from my last job, I know this is not enough to guarantee working everywhere. One small thing I'd like to learn at RC is a fullproof method for avoiding sentences like this in READMEs.
+After cloining this repo, this works on my local. But from my last job, I know this is not enough to guarantee working everywhere. One small thing I'd like to learn at RC is a reliable method for avoiding sentences like this in READMEs.
